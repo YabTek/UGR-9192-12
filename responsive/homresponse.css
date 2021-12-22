@@ -1,0 +1,92 @@
+@media screen and (max-width:) {
+    
+}
+@media screen and (min-width:480px) and (max-width:767px){
+    #header{
+        height:170px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        font-size:smaller;
+    }
+    #main{
+        background-image: url("../image/gal.jpg")
+    }
+    
+    .hello h1{
+        margin-left: 1px;
+        color:rgb(0, 225, 233);
+        
+    }
+    .main_h1{
+        font-size:100%;
+    
+    }
+    #port img{
+        max-width:100%;
+    }
+    #main h1{
+        width:150%;
+    }
+
+    table{
+        width:90%;
+        margin-left: 20px;
+    
+    }   
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    #header{
+        font-size:10px;
+    
+    }
+    nav a{
+        color:rgb(64, 255, 16);
+        
+    }
+    .hello h1{
+        font-size:15px;
+        margin-left: 2px;
+        color:rgb(162, 153, 35);
+
+    }
+    .main_h1{
+        font-size:20px;
+    }
+    #main img{
+        width:100%;
+    }
+    table{
+        width:100%;
+        
+    }
+
+}
+@media screen and (min-width:1025px) and (max-width:1200px){
+    #header{
+        font-size:90%;
+    }
+    nav a{
+        color:rgb(72, 255, 0);
+        
+    }
+    #main img{
+        width:100%;
+    }
+    
+    .hello h1{
+        font-size:80%;
+        margin-left: 2px;
+        color:rgb(72, 255, 0);
+
+    }
+    
+    .main_h1{
+        font-size:20px;
+    }
+    table{
+        width:100%;
+    }   
+
+
+}

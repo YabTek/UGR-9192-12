@@ -1,0 +1,122 @@
+#header{
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-image: url("../image/exp.jpg");
+    
+    
+}
+nav{
+    
+    margin-bottom: 2%;
+    
+
+}
+#header a{
+    text-decoration:none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    font-size:larger;
+    margin-right:1em;
+    color:honeydew
+
+    
+}
+#header a:hover{
+    color:cyan;
+}
+#main a{
+    color:blue;
+}
+#main a:hover{
+    color:black;
+}
+
+
+.hello h1{
+        font-family:serif;
+        font-weight:bolder;
+        font-size:x-large;
+        display:inline;
+        color:honeydew;
+        position:relative;
+        top:-45px;
+        margin-left: 2em;
+    }
+.hello img{
+        height:100px;
+        width:100px;
+        border-radius:50%;
+    }
+
+
+    #im1{
+        height:100px;
+        width:100px;
+        border-radius: 50%;
+    }
+    #im2{
+        height:100px;
+        width:100px;
+        border-radius: 50%;
+    }
+    main h1{
+        margin-top: 100px;
+        margin-left: 150px;
+        font-weight: bolder;
+        font-size: xx-large;
+        color:purple;
+    }
+
+    #main{
+        display: flex;
+        flex-direction: column;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-image: url(../image/by4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    
+    
+    
+.info{
+        margin-left: 80px;
+    
+    }
+    
+.comment{
+        
+        text-align: right;
+        margin-right: 100px;
+        margin-bottom: 40px;
+        margin-top: 200px;
+        color:rgb(26, 15, 8);
+        font-weight: bolder;
+        font-size: large;
+    }
+#submit{
+    margin-right: 80px;
+    background-color: rgb(164, 169, 61);
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight:bold;
+    
+    
+     }
+#footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(../image/exp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.864);
+
+
+
+
+}
+

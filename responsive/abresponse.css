@@ -1,0 +1,50 @@
+@media screen and (min-width:480px) and (max-width:767px){
+    #header{
+        height:170px;
+        display:flex;
+        flex-direction: column;
+        background-image: url(../image/purple5.jpg);
+        align-items: center;
+        font-size:smaller;
+        
+    }
+    .hello h1{
+        margin-left: 1px;
+        color:brown;
+        
+    }
+    nav a{
+        color:brown;
+    }
+    #header a:hover{
+        color:white;
+    }
+    #main{
+        background-image: url(../image/purple4.jpg);
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    #header{
+        background-image: url(../image/purple1.jpg);
+        font-size:10px;
+    }
+    nav a{
+        color:white;
+        font-weight: 900;
+    }
+    .hello h1{
+        font-size:15px;
+        margin-left: 2px;
+        color:white;
+
+    }
+    #main{
+        background-image: url(../image/purple6.jpg);
+    }
+
+}
+@media screen and (min-width:1025px) and (max-width:1200px){
+    #header{
+        font-size:90%;
+    }
+}
