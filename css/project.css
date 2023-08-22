@@ -37,56 +37,65 @@ a{
         font-size:larger;
         color:honeydew;
         margin-right:1em;
-        
-    
-        
+  
     }
 #header a:hover{
         color:cyan;
     }
     
-.backg{
+.hakim{
     margin-top: 80px;
     margin-right: 70px;
     margin-left: 70px;
     padding:2em;
-    color:rgb(218, 32, 203);
 }
-.now{
+.mobile{
     margin-left:70px;
     margin-right:70px;
     padding:2em;
-    color:darkorange;
 }
-.strength{
+.game{
+    margin-left:70px;
+    margin-right:70px;
+    padding:2em;
+}
+.bela{
+    margin-left:70px;
+    margin-right:70px;
+    padding:2em;
+}
+.hakim{
+    margin-left:70px;
+    margin-right:70px;
+    padding:2em;
+}
+.redux{
     margin-left: 70px;
     margin-right:70px;
     padding:2em;
-    color:darkolivegreen;
 }
-.weakness{ 
+.car{ 
+    margin-left: 70px;
+    margin-right: 70px;
+    padding:2em;
+}
+.port{ 
     margin-left: 70px;
     margin-right: 70px;
     padding:2em;
     margin-bottom: 100px;
-    color:darkred;
 }
-
-
-
 
 #main{
     display:flex;
     flex-direction: column;
    font-size:larger;
    font-weight: 900;
-   
-   background-image: url("../image/img1.jpg");
+   color: aliceblue;
+   background-image: url("../image/b3.jpg");
    background-repeat: no-repeat;
    background-size: cover;
-   
-   
-   
+ 
 }
 .links {
    margin-left: 140px;

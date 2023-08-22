@@ -10,14 +10,11 @@
     grid-template-areas: "header" "main" "footer";
 }
 
-
-
 #header{
     display:flex;
     align-items: flex-end;
     justify-content: space-between;
    background-image: url("../image/exp.jpg");
-
     
 }
 
@@ -38,13 +35,9 @@
 
 }
 
-
-
 nav{
     
     margin-bottom: 2%;
-    
-
 }
 a{
     text-decoration:none;
@@ -59,11 +52,14 @@ a{
 }
 #port{
     text-align:center;
+    padding-top:110px;
+    
 }
 
 #main{
     display:flex;
     flex-direction:column;
+    height: 93vh;
     align-items: center;
     background-image:url(../image/giphy.gif);
     background-repeat:no-repeat;
@@ -129,13 +125,17 @@ td{
 #footer{
     display:flex;
     flex-direction:row;
-    justify-content:space-around;
+    justify-content:space-between;
+    padding: 28px;
+    align-items: center;
     background-image: url(../image/exp.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgba(255, 255, 255, 0.864);
-
-    
-
-    
     }
+
+    #footer a:hover{
+        color:rgb(179, 255, 0);
+    }
+#footer p{
+    color: rgba(255, 255, 255, 0.864);
+}
