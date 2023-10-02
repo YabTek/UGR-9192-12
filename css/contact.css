@@ -29,7 +29,7 @@ nav{
     color:blue;
 }
 #main a:hover{
-    color:black;
+    color: rgb(247, 127, 229)
 }
 
 
@@ -65,7 +65,10 @@ nav{
         margin-left: 300px;
         font-weight: bolder;
         font-size: xx-large;
-        color:purple;
+        color: rgb(247, 127, 229)
+    }
+    main h2{
+        color: rgb(247, 127, 229)
     }
 
     #main{
@@ -73,7 +76,7 @@ nav{
         flex-direction: column;
         font-family: Georgia, 'Times New Roman', Times, serif;
         height: 93vh;
-        background-image: url(../image/bg2.jpg);
+        background-image: url(../image/b1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         
